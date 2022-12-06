@@ -6204,7 +6204,7 @@
   (symbol (lib_id "Device:D_Small") (at 254 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1a1df711-fcbd-4c75-acdd-ecdd08920fed)
-    (property "Reference" "D27" (id 0) (at 255.778 33.02 90)
+    (property "Reference" "D30" (id 0) (at 255.778 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WS" (id 1) (at 255.778 34.163 90)
@@ -6260,7 +6260,7 @@
   (symbol (lib_id "Device:D_Small") (at 238.76 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 49990991-d8ff-4a5a-9eb5-583d11cb0e4c)
-    (property "Reference" "D26" (id 0) (at 240.538 33.02 90)
+    (property "Reference" "D29" (id 0) (at 240.538 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WS" (id 1) (at 240.538 34.163 90)
@@ -6282,7 +6282,7 @@
   (symbol (lib_id "Device:D_Small") (at 193.04 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5d716086-679a-4249-9bed-adfb9e03b1f6)
-    (property "Reference" "D23" (id 0) (at 194.818 33.02 90)
+    (property "Reference" "D26" (id 0) (at 194.818 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WS" (id 1) (at 194.818 34.163 90)
@@ -6338,7 +6338,7 @@
   (symbol (lib_id "Device:D_Small") (at 223.52 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a93b0b64-e636-4e4b-adc7-9773fcd0e266)
-    (property "Reference" "D25" (id 0) (at 225.298 33.02 90)
+    (property "Reference" "D28" (id 0) (at 225.298 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WS" (id 1) (at 225.298 34.163 90)
@@ -6360,7 +6360,7 @@
   (symbol (lib_id "Device:D_Small") (at 208.28 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cd4ce401-ad3d-48d0-a4e4-6c6de151d98c)
-    (property "Reference" "D24" (id 0) (at 210.058 33.02 90)
+    (property "Reference" "D27" (id 0) (at 210.058 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WS" (id 1) (at 210.058 34.163 90)
@@ -6382,7 +6382,7 @@
   (symbol (lib_id "Device:D_Small") (at 269.24 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e118fbfb-5e3d-4539-ba7e-1b94dd966a7c)
-    (property "Reference" "D28" (id 0) (at 271.018 33.02 90)
+    (property "Reference" "D31" (id 0) (at 271.018 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WS" (id 1) (at 271.018 34.163 90)
@@ -6556,29 +6556,29 @@
     (path "/00000000-0000-0000-0000-0000614fe0e4"
       (reference "D23") (unit 1) (value "1N5819W") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/5d716086-679a-4249-9bed-adfb9e03b1f6"
-      (reference "D23") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
-    )
     (path "/00000000-0000-0000-0000-0000612c6f74"
       (reference "D24") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/cd4ce401-ad3d-48d0-a4e4-6c6de151d98c"
-      (reference "D24") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-0000616f77ad"
       (reference "D25") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/a93b0b64-e636-4e4b-adc7-9773fcd0e266"
-      (reference "D25") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
-    )
-    (path "/49990991-d8ff-4a5a-9eb5-583d11cb0e4c"
+    (path "/5d716086-679a-4249-9bed-adfb9e03b1f6"
       (reference "D26") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
     )
-    (path "/1a1df711-fcbd-4c75-acdd-ecdd08920fed"
+    (path "/cd4ce401-ad3d-48d0-a4e4-6c6de151d98c"
       (reference "D27") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
     )
-    (path "/e118fbfb-5e3d-4539-ba7e-1b94dd966a7c"
+    (path "/a93b0b64-e636-4e4b-adc7-9773fcd0e266"
       (reference "D28") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
+    )
+    (path "/49990991-d8ff-4a5a-9eb5-583d11cb0e4c"
+      (reference "D29") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
+    )
+    (path "/1a1df711-fcbd-4c75-acdd-ecdd08920fed"
+      (reference "D30") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
+    )
+    (path "/e118fbfb-5e3d-4539-ba7e-1b94dd966a7c"
+      (reference "D31") (unit 1) (value "1N4148WS") (footprint "dao-choc-ble:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-000061267faf"
       (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric")
